@@ -8,7 +8,6 @@
 *.swo
 *~
 
-# Optional: uncomment if you don't want to track download scripts
-# download_assets.sh
-# download_vendor_assets.sh
-# download_fonts.sh
+# One-time asset download helpers (not needed for deployed site)
+download_assets.sh
+DOWNLOAD_ASSETS.md
