@@ -29,10 +29,10 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@3
+        uses: actions/upload-pages-artifact@v2
         with:
           path: sanjaynichani
 
       - name: Deploy to GitHub Pages
         id: deploy
-        uses: actions/deploy-pages@4
+        uses: actions/deploy-pages@v3
